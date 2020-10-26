@@ -1,0 +1,27 @@
+{
+  "name": "EmployeeTracker",
+  "version": "1.0.0",
+  "description": "Architect and build a solution for managing a company's employees through a Content Management Systems interface, using node, inquirer, and MySQL. This will allow non-developers to view and interact with the information stored in the database.",
+  "main": "server.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkgrant78/EmployeeTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wkgrant78/EmployeeTracker/issues"
+  },
+  "homepage": "https://github.com/wkgrant78/EmployeeTracker#readme"
+}
