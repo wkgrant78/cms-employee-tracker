@@ -32,8 +32,8 @@ Architect and build a solution for managing a company's employees through a Cont
 
 * Create repo and initial files, install dependencies
 * Create databases using schema.sql and seeds.sql files
-* Create server.js - connect to server and sql databases, user prompts, include SQL JOINS to combine rows from database tables
-* Test functionality - use console.table to print MySQL rows to console
+* Create server.js - connect to server and sql databases, user prompts, include SQL JOINS to combine rows from database tables (use console.table to print MySQL rows to console)
+* Test functionality
 * Record functioning app
 
 
@@ -41,6 +41,7 @@ Architect and build a solution for managing a company's employees through a Cont
 
 * Initial commit - created repo, .gitignore, README.md, npm installs, server.js, sql folder with blank employeeTrackerDB.sql and seed.sql files
 * Created employeeTracker_db with required tables and columns, and seed.sql to insert data into the employeeTracker_db tables
+* setup server connection in .js and updated README.md; added GitHub repo link
 
 ### VIDEO OF FUNCTIONING APP:
 
