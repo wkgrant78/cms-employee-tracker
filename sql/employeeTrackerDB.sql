@@ -1,28 +1,38 @@
-DROP DATABASE IF EXISTS employeeTracker_db;
-CREATE DATABASE employeeTracker_db;
+DROP DATABASE IF EXISTS employees_DB;
 
-USE employeeTracker_db;
+CREATE DATABASE employees_DB;
 
-CREATE TABLE department(
-    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    department_name VARCHAR(30) NOT NULL
+USE employees_DB;
+
+------- Department table -------
+CREATE TABLE department (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(30) NOT NULL,
+    PRIMARY KEY (id)
 );
 
-CREATE TABLE roles(
-    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+------- Role Table -------
+CREATE TABLE role (
+    id INT NOT NULL AUTO_INCREMENT,
     title VARCHAR(30) NOT NULL,
-    salary DECIMAL(7,2) NOT NULL,
-    department_id INT NOT NULL
+    salary DECIMAL NOT NULL,
+    department_id INT NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (department_id) REFERENCES department(id) ON DELETE CASCADE
+    -- "FOREIGN KEY" used to link to the "PRIMARY KEY" of another table --
+    -- "ON DELETE CASCADE" used to delete data from child tables automatically when data is deleted from the parent table --
 );
 
-CREATE TABLE employees(
-    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+------- Employee Table -------
+CREATE TABLE employee (
+    id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
     role_id INT NOT NULL,
     manager_id INT,
-    FOREIGN KEY(role_id) REFERENCES roles(id), -- "FOREIGN KEY" used to link to the "PRIMARY KEY" of another table
-    FOREIGN KEY(manager_id) REFERENCES employees(id)
+    PRIMARY KEY (id),
+    FOREIGN KEY (role_id) REFERENCES role(id) ON DELETE CASCADE,
+    FOREIGN KEY (manager_id) REFERENCES employee(id) 
 );
 
 
