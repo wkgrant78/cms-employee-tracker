@@ -27,7 +27,6 @@ Architect and build a solution for managing a company's employees through a Cont
     * Add departments
     * View departments
     * Update employee roles
-* 
 
 ### DEVELOPMENT PLAN:
 
@@ -40,8 +39,8 @@ Architect and build a solution for managing a company's employees through a Cont
 
 ### COMMITS:
 
-* Initial commit - created repo, .gitignore, README.md, npm installs, server.js, sql folder with schema.sql and seed.sql
-*
+* Initial commit - created repo, .gitignore, README.md, npm installs, server.js, sql folder with blank employeeTrackerDB.sql and seed.sql files
+* Created employeeTracker_db with required tables and columns, and seed.sql to insert data into the employeeTracker_db tables
 
 ### VIDEO OF FUNCTIONING APP:
 
