@@ -40,16 +40,16 @@ Architect and build a solution for managing a company's employees through a Cont
 ### COMMITS:
 
 * Initial commit - created repo, .gitignore, README.md, npm installs, server.js, sql folder with blank employeeTrackerDB.sql and seed.sql files
-* Created employeeTracker_db with required tables and columns, and seed.sql to insert data into the employeeTracker_db tables
+* Created employees_DB with required tables and columns, and seed.sql to insert data into the employees_DB tables
 * Setup server connection in .js and updated README.md; added GitHub repo link
-* Fixed syntax errors in emploeeTrackerDB.sql and seed.sql
-* Installed 'promise-mysql' and updated code in server.js - only initial prompt is functioning
+* Fixed syntax errors in employeeTrackerDB.sql and seed.sql
+* Installed 'promise-mysql' to create connection and added code in server.js - only initial prompt is functioning
 * Updated syntax in .sql files
-* Function tested CLI app - successful
-* Tried recording functionality - Main Menu and prompts working, console.tables no longer appearing
-* Worked with AskBCS to resolve CLI function issue, re-executed seed.sql file - successful
-* Recorded funstionality - successful
-* Final update to README with employeeTracker.gif
+* Function tested CL app - successful
+* Tried recording functionality - 'Main Menu' and prompts working, console.tables no longer appearing
+* Worked with AskBCS to resolve CL app function issue, re-executed seed.sql file - successful
+* Recorded functionality - successful
+* Final update to README.md with employeeTracker.gif
 
 
 ### VIDEO OF FUNCTIONING APP:
