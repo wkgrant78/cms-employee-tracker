@@ -1,7 +1,5 @@
 # EmployeeTracker
 
-# EmployeeTracker
-
 ### PROJECT DESCRIPTION:
 
 Architect and build a solution for managing a company's employees through a Content Management Systems interface, using node, inquirer, and MySQL. This will allow non-developers to view and interact with the information stored in the database.
