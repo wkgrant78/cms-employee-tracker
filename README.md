@@ -1,4 +1,4 @@
-# EmployeeTracker
+# CMS EMPLOYEE TRACKER
 
 ### PROJECT DESCRIPTION:
 
@@ -53,8 +53,4 @@ Architect and build a solution for managing a company's employees through a Cont
 ### VIDEO OF FUNCTIONING APP:
 
 ![](employeeTracker.gif)
-
-### GITHUB URL:
-
-https://github.com/wkgrant78/EmployeeTracker.git
 
